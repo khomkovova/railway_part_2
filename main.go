@@ -23,7 +23,7 @@ func main() {
 	//http.HandleFunc("/upload", Upload)
 	//http.HandleFunc("/refresh", Refresh)
 	// start the server on port 8000
-	log.Fatal(http.ListenAndServe(":12345", nil))
+	log.Fatal(http.ListenAndServe(":12346", nil))
 }
 
 func TestDb(){

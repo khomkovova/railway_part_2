@@ -87,6 +87,7 @@ func DownloadFirmware(w http.ResponseWriter, r *http.Request)  {
 	for _, cookie := range r.Cookies() {
 		token = cookie.Value
 	}
+	fmt.Println("token =" + token)
 	if token != "server1234567890"{
 		w.WriteHeader(http.StatusUnauthorized)
 		return
