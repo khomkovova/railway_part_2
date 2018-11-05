@@ -2,26 +2,644 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04ef21e2-3f2a-47a4-8f2f-39b6be444b9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/addcomments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/comments.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/_indexpage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/addcomments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/indexpage_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/signin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/signin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/updatefirmware.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hendler.go" beforeDir="false" afterPath="$PROJECT_DIR$/hendler.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mycheck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mycheck.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/NEWS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/THANKS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/acinclude.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/aclocal.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/autogen.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/config.guess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/config.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/config.sub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/configure.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/depcomp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/docs/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/docs/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/docs/PORTING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/docs/README.video" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/docs/dosbox.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/bios.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/bios_disk.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/callback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/control.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/cpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/cross.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/dma.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/dos_inc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/dos_system.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/dosbox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/fpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/hardware.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/inout.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/ipx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/ipxserver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/joystick.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/keyboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/logging.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/mapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/mem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/mixer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/modules.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/mouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/paging.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/pic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/programs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/regs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/render.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/serialport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/setup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/shell.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/vga.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/include/video.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/install-sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/missing" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/callback.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dyn_x86.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dyn_x86/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dyn_x86/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dyn_x86/cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dyn_x86/decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dyn_x86/dyn_fpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dyn_x86/dyn_fpu_dh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dyn_x86/helpers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dyn_x86/risc_x86.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dyn_x86/string.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/decoder_basic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/decoder_opcodes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/dyn_fpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/operators.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/risc_armv4le-common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/risc_armv4le-o3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/risc_armv4le-s3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/risc_armv4le-thumb-iw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/risc_armv4le-thumb-niw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/risc_armv4le-thumb.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/risc_armv4le.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/risc_mipsel32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/risc_x64.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_dynrec/risc_x86.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_full.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_full/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_full/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_full/ea_lookup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_full/load.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_full/loadwrite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_full/op.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_full/optable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_full/save.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_full/string.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_full/support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_normal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_normal/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_normal/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_normal/helpers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_normal/prefix_0f.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_normal/prefix_66.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_normal/prefix_66_0f.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_normal/prefix_none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_normal/string.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_normal/support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_normal/table_ea.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_prefetch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/core_simple.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/cpu.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/flags.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/instructions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/lazyflags.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/modrm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/modrm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/cpu/paging.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/debug/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/debug/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/debug/debug.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/debug/debug_disasm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/debug/debug_gui.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/debug/debug_inc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/debug/debug_win32.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/debug/disasm_tables.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/cdrom.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/cdrom.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/cdrom_aspi_win32.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/cdrom_image.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/cdrom_ioctl_linux.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/cdrom_ioctl_os2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/cdrom_ioctl_win32.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dev_con.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos_classes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos_codepages.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos_devices.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos_execute.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos_files.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos_ioctl.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos_keyboard_layout.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos_keyboard_layout_data.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos_memory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos_misc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos_mscdex.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos_programs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/dos_tables.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/drive_cache.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/drive_fat.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/drive_iso.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/drive_local.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/drive_virtual.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/drives.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/drives.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/scsidefs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dos/wnaspi32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dosbox.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/dosbox.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/fpu/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/fpu/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/fpu/fpu.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/fpu/fpu_instructions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/fpu/fpu_instructions_x86.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/dosbox_logo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/dosbox_splash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/midi.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/midi_alsa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/midi_coreaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/midi_coremidi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/midi_oss.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/midi_win32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/render.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/render_loops.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/render_scalers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/render_scalers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/render_simple.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/render_templates.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/render_templates_hq.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/render_templates_hq2x.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/render_templates_hq3x.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/render_templates_sai.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/sdl_gui.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/sdl_mapper.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/gui/sdlmain.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/adlib.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/adlib.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/cmos.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/dbopl.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/dbopl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/disney.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/dma.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/gameblaster.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/gus.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/hardware.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/iohandler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/ipx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/ipxserver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/joystick.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/keyboard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/memory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/mixer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/mpu401.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/opl.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/opl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/pcspeaker.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/pic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/sblaster.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/directserial.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/directserial.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/libserial.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/libserial.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/misc_util.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/misc_util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/nullmodem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/nullmodem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/serialdummy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/serialdummy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/serialport.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/softmodem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/serialport/softmodem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/tandy_sound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/timer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga_attr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga_crtc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga_dac.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga_draw.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga_gfx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga_memory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga_misc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga_other.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga_paradise.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga_s3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga_seq.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga_tseng.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/hardware/vga_xga.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/bios.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/bios_disk.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/bios_keyboard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/ems.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/int10.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/int10.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/int10_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/int10_memory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/int10_misc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/int10_modes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/int10_pal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/int10_put_pixel.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/int10_vesa.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/int10_video_state.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/int10_vptable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/mouse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/xms.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/ints/xms.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/libs/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/libs/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/libs/gui_tk/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/libs/gui_tk/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/libs/gui_tk/gui_tk.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/libs/gui_tk/gui_tk.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/libs/zmbv/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/libs/zmbv/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/libs/zmbv/zmbv.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/libs/zmbv/zmbv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/misc/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/misc/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/misc/cross.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/misc/messages.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/misc/programs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/misc/setup.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/misc/support.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/platform/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/platform/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/platform/sdl-win32.diff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/platform/visualc/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/platform/visualc/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/platform/visualc/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/platform/visualc/ntddcdrm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/platform/visualc/ntddscsi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/platform/visualc/unistd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/shell/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/shell/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/shell/shell.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/shell/shell_batch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/shell/shell_cmds.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/shell/shell_misc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/src/winres.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/visualc_net/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/visualc_net/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/visualc_net/UpgradeLog.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/visualc_net/dosbox.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/visualc_net/dosbox.sln.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/visualc_net/dosbox.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/visualc_net/dosbox.vcproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/visualc_net/dosbox.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/visualc_net/dosbox.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0 (1).74_customBuild_src/visualc_net/dosbox.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/NEWS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/THANKS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/acinclude.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/aclocal.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/autogen.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/config.guess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/config.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/config.sub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/configure.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/depcomp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/docs/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/docs/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/docs/PORTING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/docs/README.video" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/docs/dosbox.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/bios.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/bios_disk.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/callback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/control.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/cpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/cross.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/dma.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/dos_inc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/dos_system.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/dosbox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/fpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/hardware.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/inout.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/ipx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/ipxserver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/joystick.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/keyboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/logging.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/mapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/mem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/mixer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/modules.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/mouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/paging.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/pic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/programs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/regs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/render.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/serialport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/setup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/shell.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/vga.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/include/video.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/install-sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/missing" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/callback.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dyn_x86.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dyn_x86/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dyn_x86/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dyn_x86/cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dyn_x86/decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dyn_x86/dyn_fpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dyn_x86/dyn_fpu_dh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dyn_x86/helpers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dyn_x86/risc_x86.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dyn_x86/string.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/decoder_basic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/decoder_opcodes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/dyn_fpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/operators.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/risc_armv4le-common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/risc_armv4le-o3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/risc_armv4le-s3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/risc_armv4le-thumb-iw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/risc_armv4le-thumb-niw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/risc_armv4le-thumb.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/risc_armv4le.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/risc_mipsel32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/risc_x64.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_dynrec/risc_x86.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_full.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_full/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_full/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_full/ea_lookup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_full/load.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_full/loadwrite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_full/op.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_full/optable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_full/save.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_full/string.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_full/support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_normal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_normal/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_normal/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_normal/helpers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_normal/prefix_0f.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_normal/prefix_66.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_normal/prefix_66_0f.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_normal/prefix_none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_normal/string.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_normal/support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_normal/table_ea.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_prefetch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/core_simple.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/cpu.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/flags.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/instructions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/lazyflags.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/modrm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/modrm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/cpu/paging.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/debug/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/debug/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/debug/debug.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/debug/debug_disasm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/debug/debug_gui.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/debug/debug_inc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/debug/debug_win32.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/debug/disasm_tables.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/cdrom.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/cdrom.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/cdrom_aspi_win32.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/cdrom_image.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/cdrom_ioctl_linux.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/cdrom_ioctl_os2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/cdrom_ioctl_win32.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dev_con.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos_classes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos_codepages.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos_devices.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos_execute.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos_files.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos_ioctl.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos_keyboard_layout.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos_keyboard_layout_data.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos_memory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos_misc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos_mscdex.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos_programs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/dos_tables.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/drive_cache.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/drive_fat.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/drive_iso.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/drive_local.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/drive_virtual.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/drives.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/drives.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/scsidefs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dos/wnaspi32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dosbox.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/dosbox.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/fpu/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/fpu/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/fpu/fpu.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/fpu/fpu_instructions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/fpu/fpu_instructions_x86.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/dosbox_logo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/dosbox_splash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/midi.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/midi_alsa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/midi_coreaudio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/midi_coremidi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/midi_oss.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/midi_win32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/render.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/render_loops.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/render_scalers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/render_scalers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/render_simple.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/render_templates.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/render_templates_hq.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/render_templates_hq2x.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/render_templates_hq3x.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/render_templates_sai.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/sdl_gui.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/sdl_mapper.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/gui/sdlmain.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/adlib.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/adlib.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/cmos.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/dbopl.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/dbopl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/disney.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/dma.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/gameblaster.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/gus.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/hardware.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/iohandler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/ipx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/ipxserver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/joystick.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/keyboard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/memory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/mixer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/mpu401.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/opl.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/opl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/pcspeaker.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/pic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/sblaster.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/directserial.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/directserial.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/libserial.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/libserial.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/misc_util.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/misc_util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/nullmodem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/nullmodem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/serialdummy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/serialdummy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/serialport.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/softmodem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/serialport/softmodem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/tandy_sound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/timer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga_attr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga_crtc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga_dac.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga_draw.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga_gfx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga_memory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga_misc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga_other.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga_paradise.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga_s3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga_seq.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga_tseng.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/hardware/vga_xga.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/bios.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/bios_disk.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/bios_keyboard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/ems.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/int10.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/int10.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/int10_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/int10_memory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/int10_misc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/int10_modes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/int10_pal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/int10_put_pixel.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/int10_vesa.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/int10_video_state.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/int10_vptable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/mouse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/xms.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/ints/xms.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/libs/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/libs/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/libs/gui_tk/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/libs/gui_tk/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/libs/gui_tk/gui_tk.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/libs/gui_tk/gui_tk.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/libs/zmbv/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/libs/zmbv/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/libs/zmbv/zmbv.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/libs/zmbv/zmbv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/misc/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/misc/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/misc/cross.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/misc/messages.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/misc/programs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/misc/setup.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/misc/support.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/platform/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/platform/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/platform/sdl-win32.diff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/platform/visualc/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/platform/visualc/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/platform/visualc/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/platform/visualc/ntddcdrm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/platform/visualc/ntddscsi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/platform/visualc/unistd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/shell/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/shell/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/shell/shell.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/shell/shell_batch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/shell/shell_cmds.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/shell/shell_misc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/src/winres.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/visualc_net/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/visualc_net/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/visualc_net/UpgradeLog.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/visualc_net/dosbox.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/visualc_net/dosbox.sln.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/visualc_net/dosbox.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/visualc_net/dosbox.vcproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/visualc_net/dosbox.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/visualc_net/dosbox.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dosbox-0.74_customBuild_src/visualc_net/dosbox.vcxproj.user" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,14 +680,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="db" value="322" />
-          <entry key="go" value="1958" />
+          <entry key="go" value="1992" />
           <entry key="html" value="217" />
           <entry key="js" value="263" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="1958" />
+          <entry key="Go" value="1992" />
           <entry key="HTML" value="217" />
           <entry key="JavaScript" value="263" />
           <entry key="PLAIN_TEXT" value="322" />
@@ -85,9 +703,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
+                <element signature="e#14#138#0" expanded="true" />
                 <element signature="n#!!block;n#TestDb#0" />
               </folding>
             </state>
@@ -102,11 +721,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hendler.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="240" column="58" lean-forward="true" selection-start-line="240" selection-start-column="58" selection-end-line="240" selection-end-column="58" />
-              <folding>
-                <element signature="n#!!block;n#decodeCookie#0" />
-              </folding>
+            <state relative-caret-position="489">
+              <caret line="256" column="49" selection-start-line="256" selection-start-column="49" selection-end-line="256" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -149,6 +765,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fmt</find>
+    </findStrings>
+  </component>
   <component name="GOROOT" path="/usr/lib/go-1.10" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -165,11 +786,11 @@
         <option value="$PROJECT_DIR$/public/signin.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/addcomments.html" />
-        <option value="$PROJECT_DIR$/hendler.go" />
         <option value="$PROJECT_DIR$/public/updatefirmware.html" />
         <option value="$PROJECT_DIR$/public/js/signin.js" />
         <option value="$PROJECT_DIR$/public/js/addcomments.js" />
         <option value="$PROJECT_DIR$/public/js/indexpage.js" />
+        <option value="$PROJECT_DIR$/hendler.go" />
         <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
@@ -378,19 +999,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hendler.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="240" column="58" lean-forward="true" selection-start-line="240" selection-start-column="58" selection-end-line="240" selection-end-column="58" />
-          <folding>
-            <element signature="n#!!block;n#decodeCookie#0" />
-          </folding>
+        <state relative-caret-position="489">
+          <caret line="256" column="49" selection-start-line="256" selection-start-column="49" selection-end-line="256" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
+            <element signature="e#14#138#0" expanded="true" />
             <element signature="n#!!block;n#TestDb#0" />
           </folding>
         </state>

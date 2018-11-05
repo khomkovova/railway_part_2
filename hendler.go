@@ -115,19 +115,16 @@ func ApiUpdateFirmware(w http.ResponseWriter, r *http.Request)  {
 	r.ParseMultipartForm(32 << 20)
 	file, handler, err := r.FormFile("firmware")
 	if err != nil {
-		fmt.Println("123")
 		w.WriteHeader(http.StatusBadRequest)
 		return
 	}
-	fmt.Println(handler.Filename);
-	//fmt.Fprintf(w, "%v", handler.Header)
+	fmt.Println("Upload file name = ", handler.Filename);
 	err = os.Remove("mycheck.cpp")
 	if err != nil {
 		fmt.Println("This file is deleted")
 	}
 	f, err := os.OpenFile("./"+"mycheck.cpp", os.O_WRONLY|os.O_CREATE, 0666)
 	if err != nil {
-		fmt.Println("124")
 		w.WriteHeader(http.StatusBadRequest)
 		return
 	}
@@ -136,7 +133,6 @@ func ApiUpdateFirmware(w http.ResponseWriter, r *http.Request)  {
 	file.Close()
 	f.Close()
 	if !compileFirmware(){
-		fmt.Println("125")
 		w.WriteHeader(http.StatusBadRequest)
 		return
 	}
@@ -190,7 +186,6 @@ func compileFirmware() bool {
 	if err != nil {
 		return false
 	}
-	fmt.Printf("Check return %s", out.String())
 	return true
 }
 
@@ -200,7 +195,6 @@ func decodeCookie(r *http.Request) string {
 		token = cookie.Value
 	}
 	if token == ""{
-		fmt.Println("error")
 		return ""
 	}
 	sDec, _ := b64.StdEncoding.DecodeString(token)
@@ -208,7 +202,6 @@ func decodeCookie(r *http.Request) string {
 	hash := sha256.New()
 	plainText, err := rsa.DecryptOAEP(hash, rand.Reader, PrivateKey, sDec, label)
 	if err != nil{
-		fmt.Println("error")
 		return ""
 	}
 	user := string(plainText)
@@ -262,7 +255,6 @@ func commentsCheck(data string) string {
 	//a := blacklist
 	for _, word := range blacklist {
 		data = strings.Replace(data, word, "",-1)
-		fmt.Println(data)
 	}
 	return data
 }
