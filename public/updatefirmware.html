@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>UploadFile</p>
+<form enctype="multipart/form-data" action="http:/api/updatefirmware" method="post">
+    <input type="file" name="firmware" />
+    <input type="hidden" name="token" value="{{.}}"/>
+    <input type="submit" value="upload" />
+</form>
+<a href="signin">Signin</a>
+<a href="/">Main</a>
+<a href="allcomments">All Comments</a>
+<a href="addcomments">Add Comments</a>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Comments</title>
+</head>
+<body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/axios.min.js"></script>
+
+<div id="app">
+    <p>{{status}}</p>
+    Your comments:<label>
+    <input type="text"  v-on:input="comments=$event.target.value">
+</label>
+
+    <button v-on:click="submit">Submit</button>
+</div>
+<a href="signin">Signin</a>
+<a href="/">Main</a>
+<a href="allcomments">All Comments</a>
+<a href="addcomments">Add Comments</a>
+<script src="js/vue.js"></script>
+<script src="js/addcomments.js"></script>
+</body>
+</html>

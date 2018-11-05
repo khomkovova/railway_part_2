@@ -6,6 +6,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gomodule/redigo/redis"
 	"log"
+	"net"
 	"net/http"
 )
 
@@ -16,14 +17,27 @@ func main() {
 	//InitDataBase()
 	//TestDb()
 	// "Signin" and "Signup" are handler that we will implement
+	fs := http.FileServer(http.Dir("public/js"))
+	http.Handle("/js/", http.StripPrefix("/js/", fs))
+	http.HandleFunc("/", IndexPage)
+	http.HandleFunc("/allcomments", ShowComments)
+	http.HandleFunc("/addcomments", AddComments)
+	http.HandleFunc("/api/addcomments", ApiAddComments)
 	http.HandleFunc("/signin", Signin)
+	http.HandleFunc("/api/signin", ApiSignin)
 	http.HandleFunc("/updatefirmware", UpdateFirmware)
+	http.HandleFunc("/api/updatefirmware", ApiUpdateFirmware)
+	//http.HandleFunc("/api/getcomments",GetComments)
 	http.HandleFunc("/downloadfirmware", DownloadFirmware)
 	//http.HandleFunc("/", Info)
 	//http.HandleFunc("/upload", Upload)
 	//http.HandleFunc("/refresh", Refresh)
 	// start the server on port 8000
-	log.Fatal(http.ListenAndServe(":12346", nil))
+	l, err := net.Listen("tcp4", ":12345")
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Fatal(http.Serve(l, nil))
 }
 
 func TestDb(){
