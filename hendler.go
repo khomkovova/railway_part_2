@@ -64,7 +64,7 @@ func ApiAddComments(w http.ResponseWriter, r *http.Request)  {
 		return
 	}
 	com := commentsCheck(comments.Comments)
-	com += "<br>-----------------------------------------------------------------------------------<br>"
+	com += "<br><h3>---</h3>"
 	_, err = f.Write([]byte(com))
 	if err != nil {
 		return
@@ -235,14 +235,23 @@ func generateShowCooments() string {
 	<head>
 	<meta charset="UTF-8">
 		<title>Comments</title>
+ <link rel="stylesheet" href="js/main.css">
 		</head>
 		<body>
-		<a href="signin">Signin</a>
-		<a href="/">Main</a>
-		<a href="allcomments">All Comments</a>
-		<a href="addcomments">Add Comments</a>
-		<div>` + string(comments) + `
-		</div>
+		<footer>
+		<a class="link" href="signin">Signin</a>
+		<a class="link"  href="/">Main</a>
+		<a  class="link" href="allcomments">All Comments</a>
+		<a  class="link" href="addcomments">Add Comments</a>
+        </footer>
+<div class="header">
+    <h1>All comments</h1>
+</div>
+		<dir>
+		<p>` + string(comments) + `
+		</p>
+		</dir>
+		
 </body>
 </html>`
 return data

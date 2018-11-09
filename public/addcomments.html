@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Add Comments</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/axios.min.js"></script>
+    <link rel="stylesheet" href="js/main.css">
 </head>
 <body>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/axios.min.js"></script>
-
-<div id="app">
+<footer>
+    <a class="link" href="signin">Signin</a>
+    <a class="link" href="/">Main</a>
+    <a class="link" href="allcomments">All Comments</a>
+</footer>
+<div class="header">
+    <h1>Add comments</h1>
+</div>
+<dir id="app">
     <p>{{status}}</p>
+    <div class="input-group">
     Your comments:<label>
     <input type="text"  v-on:input="comments=$event.target.value">
 </label>
-
-    <button v-on:click="submit">Submit</button>
-</div>
-<a href="signin">Signin</a>
-<a href="/">Main</a>
-<a href="allcomments">All Comments</a>
-<a href="addcomments">Add Comments</a>
+    </div>
+    <button class="btn" v-on:click="submit">Submit</button>
+</dir>
 <script src="js/vue.js"></script>
 <script src="js/addcomments.js"></script>
 </body>

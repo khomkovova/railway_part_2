@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Signin to command center</title>
+    <link rel="stylesheet" href="js/main.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/axios.min.js"></script>
 </head>
 <body>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/axios.min.js"></script>
-<div id="app">
+<a class="link" href="/">Main</a>
+<a class="link" href="allcomments">All Comments</a>
+<a class="link" href="addcomments">Add Comments</a>
+<div class="header">
+    <h1>Login</h1>
+</div>
+<dir id="app">
     <p>{{error}}</p>
+    <div class="input-group">
     Username:<label>
     <input type="text"  v-on:input="username=$event.target.value">
 </label>
+    </div>
+    <div class="input-group">
     Password:<label>
     <input type="password" v-on:input="password=$event.target.value">
 </label>
-    <button v-on:click="signin">Signin</button>
-</div>
-<a href="/">Main</a>
-<a href="allcomments">All Comments</a>
-<a href="addcomments">Add Comments</a>
+    </div>
+    <button class="btn" v-on:click="signin">Signin</button>
+</dir>
 <script src="js/vue.js"></script>
 <script src="js/signin.js"></script>
 
