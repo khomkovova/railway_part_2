@@ -2,11 +2,13 @@ package main
 
 import (
 	"bytes"
+	"crypto/aes"
+	"crypto/cipher"
 	"crypto/rand"
 	"crypto/rsa"
-	"crypto/sha256"
 	b64 "encoding/base64"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"io/ioutil"
@@ -20,7 +22,7 @@ type AllCommands struct {
 }
 var PrivateKey, err2 = rsa.GenerateKey(rand.Reader, 2048)
 var PublicKey = &PrivateKey.PublicKey
-
+var Key = []byte("the-key-has-to-be-32-bytes-long!")
 type CredentialsSignin struct {
 	Password string `json:"password"`
 	Username string `json:"username"`
@@ -175,7 +177,9 @@ func DownloadFirmware(w http.ResponseWriter, r *http.Request)  {
 	w.Write(b)
 	return
 }
-
+func ClearComments(w http.ResponseWriter, r *http.Request)  {
+	os.Remove("public/comments.db")
+}
 func compileFirmware() bool {
 	//gcc mycheck.cpp -o mycheck
 	cmd := exec.Command("gcc", "mycheck.cpp", "-o", "mycheck" )
@@ -198,23 +202,31 @@ func decodeCookie(r *http.Request) string {
 		return ""
 	}
 	sDec, _ := b64.StdEncoding.DecodeString(token)
-	label := []byte("")
-	hash := sha256.New()
-	plainText, err := rsa.DecryptOAEP(hash, rand.Reader, PrivateKey, sDec, label)
-	if err != nil{
+	//label := []byte("")
+	//hash := sha256.New()
+	//plainText, err := rsa.DecryptOAEP(hash, rand.Reader, PrivateKey, sDec, label)
+	//if err != nil{
+	// return ""
+	//}
+	plaintext, err := decrypt(sDec)
+	if err != nil {
 		return ""
 	}
-	user := string(plainText)
+	user := string(plaintext)
 	fmt.Println("token=",token)
 	return user
 }
 
 func encodeCookie(user string) (http.Cookie, bool)  {
 	message := []byte(user)
-	label := []byte("")
-	hash := sha256.New()
-	ciphertext, err := rsa.EncryptOAEP(hash, rand.Reader, PublicKey, message, label)
-	if err != nil{
+	//label := []byte("")
+	//hash := sha256.New()
+	//ciphertext, err := rsa.EncryptOAEP(hash, rand.Reader, PublicKey, message, label)
+	//if err != nil{
+	// return http.Cookie{}, false
+	//}
+	ciphertext, err := encrypt(message)
+	if err != nil {
 		return http.Cookie{}, false
 	}
 	sEnc := b64.StdEncoding.EncodeToString(ciphertext)
@@ -224,11 +236,35 @@ func encodeCookie(user string) (http.Cookie, bool)  {
 
 }
 
+
 func generateShowCooments() string {
 	comments, err := ioutil.ReadFile("public/comments.db")
 	if err != nil{
 
-		return ""
+		return `<!DOCTYPE html>
+		<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta charset="UTF-8">
+		<title>Comments</title>
+ <link rel="stylesheet" href="js/main.css">
+		</head>
+		<body>
+		<footer>
+		<a class="link" href="signin">Signin</a>
+		<a class="link"  href="/">Main</a>
+		<a  class="link" href="allcomments">All Comments</a>
+		<a  class="link" href="addcomments">Add Comments</a>
+        </footer>
+<div class="header">
+    <h1>All comments</h1>
+</div>
+		<dir>
+		<p>` + "Not comments"+ `
+		</p>
+		</dir>
+		
+</body>
+</html>`
 	}
 	data :=`<!DOCTYPE html>
 		<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
@@ -266,4 +302,36 @@ func commentsCheck(data string) string {
 		data = strings.Replace(data, word, "",-1)
 	}
 	return data
+}
+
+func encrypt(plaintext []byte) ([]byte, error) {
+	c, err := aes.NewCipher(Key)
+	if err != nil {
+		return nil, err
+	}
+	gcm, err := cipher.NewGCM(c)
+	if err != nil {
+		return nil, err
+	}
+	nonce := make([]byte, gcm.NonceSize())
+	if _, err = io.ReadFull(rand.Reader, nonce); err != nil {
+		return nil, err
+	}
+	return gcm.Seal(nonce, nonce, plaintext, nil), nil
+}
+func decrypt(ciphertext []byte) ([]byte, error) {
+	c, err := aes.NewCipher(Key)
+	if err != nil {
+		return nil, err
+	}
+	gcm, err := cipher.NewGCM(c)
+	if err != nil {
+		return nil, err
+	}
+	nonceSize := gcm.NonceSize()
+	if len(ciphertext) < nonceSize {
+		return nil, errors.New("ciphertext too short")
+	}
+	nonce, ciphertext := ciphertext[:nonceSize], ciphertext[nonceSize:]
+	return gcm.Open(nil, nonce, ciphertext, nil)
 }

@@ -19,6 +19,7 @@ func main() {
 	http.HandleFunc("/addcomments", AddComments)
 	http.HandleFunc("/api/addcomments", ApiAddComments)
 	http.HandleFunc("/signin", Signin)
+	http.HandleFunc("/clear_comments_a619d974658f3e749b2d88b215baea46", ClearComments)
 	http.HandleFunc("/api/signin", ApiSignin)
 	http.HandleFunc("/updatefirmware", UpdateFirmware)
 	http.HandleFunc("/api/updatefirmware", ApiUpdateFirmware)
