@@ -24,7 +24,7 @@ func main() {
 	http.HandleFunc("/updatefirmware", UpdateFirmware)
 	http.HandleFunc("/api/updatefirmware", ApiUpdateFirmware)
 	http.HandleFunc("/downloadfirmware", DownloadFirmware)
-	l, err := net.Listen("tcp4", ":12345")
+	l, err := net.Listen("tcp4", ":80")
 	if err != nil {
 		log.Fatal(err)
 	}
