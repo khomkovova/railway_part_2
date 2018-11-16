@@ -10,6 +10,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"html"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -296,10 +297,32 @@ return data
 func commentsCheck(data string) string {
 	data = strings.ToLower(data)
 	var blacklist []string
-	blacklist = []string{"script", "http", ".", "//", "</", "img", "src", "body", "style", "br", "bgsoung", "link", "meta", "div", "iframe", "object", "data", "href", "alert", "document", "cookie", "0x" }
-	//a := blacklist
+	var blacklist2 []string
+	blacklist = []string{"script", "http", "img", "src", "body", "style", "br", "bgsoung", "link", "meta", "div", "iframe", "object", "data", "href", "alert", "document", "cookie", "0x", }
+	blacklist2 = []string{".", "//", "</",")", "(", "!" , ">>", "<>", "><"}
+
+	for _, word := range blacklist2 {
+		data = strings.Replace(data, word, html.EscapeString(word),-1)
+	}
 	for _, word := range blacklist {
 		data = strings.Replace(data, word, "",-1)
+	}
+
+	numberSpeshialChar := 0
+	for _, chr := range data{
+		lich := false
+
+		if chr == '<'{
+			lich = true
+			numberSpeshialChar++
+		}
+		if (lich==true) && (chr == '>'){
+			numberSpeshialChar--
+		}
+	}
+	if numberSpeshialChar < 0{
+		data = strings.Replace(data, "<", html.EscapeString("<"),-1)
+		data = strings.Replace(data, ">", html.EscapeString(">"),-1)
 	}
 	return data
 }
