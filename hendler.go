@@ -92,7 +92,7 @@ func ApiSignin(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusBadRequest)
 		return
 	}
-	if creds.Username != "admin" || creds.Password != "pass"{
+	if creds.Username != "admin" || creds.Password != "RemidolovSupport"{
 		w.WriteHeader(http.StatusUnauthorized)
 		return
 	}
@@ -139,7 +139,7 @@ func ApiUpdateFirmware(w http.ResponseWriter, r *http.Request)  {
 		w.WriteHeader(http.StatusBadRequest)
 		return
 	}
-	w.Write([]byte("File uploaded success"))
+	w.Write([]byte("Successful file upload"))
 
 }
 func UpdateFirmware(w http.ResponseWriter, r *http.Request)  {
@@ -203,12 +203,6 @@ func decodeCookie(r *http.Request) string {
 		return ""
 	}
 	sDec, _ := b64.StdEncoding.DecodeString(token)
-	//label := []byte("")
-	//hash := sha256.New()
-	//plainText, err := rsa.DecryptOAEP(hash, rand.Reader, PrivateKey, sDec, label)
-	//if err != nil{
-	// return ""
-	//}
 	plaintext, err := decrypt(sDec)
 	if err != nil {
 		return ""
@@ -220,12 +214,6 @@ func decodeCookie(r *http.Request) string {
 
 func encodeCookie(user string) (http.Cookie, bool)  {
 	message := []byte(user)
-	//label := []byte("")
-	//hash := sha256.New()
-	//ciphertext, err := rsa.EncryptOAEP(hash, rand.Reader, PublicKey, message, label)
-	//if err != nil{
-	// return http.Cookie{}, false
-	//}
 	ciphertext, err := encrypt(message)
 	if err != nil {
 		return http.Cookie{}, false
@@ -298,7 +286,7 @@ func commentsCheck(data string) string {
 	data = strings.ToLower(data)
 	var blacklist []string
 	var blacklist2 []string
-	blacklist = []string{"script", "http", "img", "src", "body", "style", "br", "bgsoung", "link", "meta", "div", "iframe", "object", "data", "href", "alert", "document", "cookie", "0x", }
+	blacklist = []string{"script", "http", "img", "src", "body", "style", "br", "bgsoung", "link", "meta", "div", "iframe", "object", "data", "href", "alert", "document", "cookie", "0x", "svg", "onload" }
 	blacklist2 = []string{".", "//", "</",")", "(", "!" , ">>", "<>", "><"}
 
 	for _, word := range blacklist2 {
